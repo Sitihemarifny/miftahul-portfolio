@@ -1,0 +1,175 @@
+*{
+    font-family: sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2rem linear;
+}
+body{
+    background: violet;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+    margin-left: -38%;
+}
+header{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 24rem;
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .user img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .5rem solid aqua;
+}
+header .user .name{
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul li a{
+    display: block;
+    padding: .5rem;
+    margin: 1rem 0;
+    background: blueviolet;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 5rem;
+}
+header .navbar ul li a:hover{
+    background: salmon;
+}
+.content img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .5rem solid blueviolet;
+    position: absolute;
+    margin-left: 2.5cm;
+    margin-top: -.7cm;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+
+}
+.home h1{
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 
+        0 0 7px #2edb62,
+        0 0 20px #2edb62,
+        0 0 30px #2edb62;
+}
+.home p{
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 
+            0 0 7px #2edb62,
+            0 0 20px #2edb62,
+            0 0 30px #2edb62;
+    padding: 1rem 0;
+}
+.home span{
+    color: brown;
+}
+
+.heading{
+    text-align: center;
+    margin:0 8rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-bottom: .4rem solid skyblue;
+    color: brown;
+    margin-left: -3%;
+}
+.heading span{
+    color: brown;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-left: -20%;
+}
+.about .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.about .row .info h3{
+    font-size: 1.5rem;
+    color: brown;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.about .row .info h3 span{
+    color: brown;
+    padding: 0 .5rem;
+}
+.about .row .counter{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-left: -20%;
+    margin-top: 12cm;
+   
+
+}
+h1 .heading{
+    margin-top: 5cm;
+}
+.contact .row .info{
+    margin-top: -20cm;
+}
+.data{
+    width: 28.28%;
+    border: 2px solid;
+    box-sizing: border-box;
+    float: left;
+    margin-top: -17cm;
+    text-align: center;
+    padding: 40px 4px;
+
+}
+.data h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
